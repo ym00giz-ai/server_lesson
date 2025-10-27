@@ -1,0 +1,300 @@
+ 37  ls /home
+   38  mv test4 test1_copy
+   39  ls
+   40  cd /home
+   41  pwd
+   42  ls test1
+   43  rm test1/copy.php
+   44  ls
+   45  ls test1
+   46  rm -r test3
+   47  ls
+   48  cd /home
+   49  ls
+   50  rm test1_copy/*.php
+   51  ls
+   52  ls test1_copy
+   53  ls test2
+   54  ls test1
+   55  cd /home
+   56  echo '#Hello World' > README.md
+   57  cat README.md
+   58  echo '#Server Lesson' > README.md
+   59  cat README.md
+   60  echo '# Server Lesson' > README.md
+   61  cat README.md
+   62  cd /home
+   63  echo 'Linux Practice' >> README.md
+   64  echo '----------------' >> README.md
+   65  cat README.md
+   66  apt update -y && apt install -y vim
+   67  cd /home
+   68  vi README.md
+   69  cd /root
+   70  mkdir server_lesson && cd server_lesson
+   71  pwd
+   72  apt update -y && apt install -y git
+   73  git version
+   74  git init
+   75  git config --global init.defaultBranch main
+   76  touch first.txt
+   77  ls server_lesson
+   78  pwd
+   79  mkdir -p linux_practice1/public && cd public
+   80  mkdir -p linux_practice1/public && cd linux_practice1/public
+   81  ls
+   82  pwd
+   83  touch index.php
+   84  cp index.php index_bk.php
+   85  ls
+   86  git add
+   87  git add *
+   88  git status
+   89  git log
+   90  git status
+   91  git status
+   92  git commit -m '1-2'
+   93  ls
+   94  pwd
+   95  git remote add origin https://github.com/ym00giz-ai/server_lesson.git
+   96  git commit -m '1-2'
+   97  git config --global user.email "admin"
+   98  git config --global user.email "admin@MacBook-Pro-2"
+   99  git commit -m '1-2'
+  100  git status
+  101  git log
+  102  pwd
+  103  cp -r public
+  104  ls
+  105  ..
+  106  cd /server_lesson/linux_practice1
+  107  cd ..
+  108  ls
+  109  cp -r public
+  110  cd ..
+  111  ls
+  112  cd /linux_practice1
+  113  cd ./linux_practice1
+  114  pwd
+  115  ls
+  116  cp -r public
+  117  cp -r public public1/tmp
+  118  cp -r public public1 && mkdir server_lesson/linux_practice1/tmp
+  119  pwd
+  120  ls
+  121  cd ./public1
+  122  ls
+  123  mkdir tmp
+  124  ls
+  125  cd /linux_practice1
+  126  exit
+  127  exit
+  128  ls
+  129  ls var
+  130  find server-lesson
+  131  find server_lesson
+  132  find server_lesson
+  133  #
+  134  find . -type d server_lesson 
+  135  ls
+  136  find . -type d -name server_lesson 
+  137  cd /root/server_lesson
+  138  ls -a
+  139  ls -a
+  140  git status
+  141  pws
+  142  pwd
+  143  ls
+  144  mv linux_practice1 linux_practice1/tmp
+  145  ls
+  146  ls linux_practice1
+  147  pwd
+  148  cd ./server_lesson
+  149  pwd
+  150  ls
+  151  cd /linux_practice1
+  152  ls
+  153  cd /linux_practice1
+  154  cd /linux_practice1
+  155  pwd
+  156  cd linux_practice1
+  157  pwd
+  158  ls
+  159  rm -r public1
+  160  ls
+  161  cd public
+  162  ls
+  163  cd ..
+  164  ls
+  165  pwd
+  166  mkdir linux_practice1/tmp && cp linux_practice1/public linux_practice1/tmp
+  167  mkdir linux_practice1/tmp && cp -p linux_practice1/public linux_practice1/tmp
+  168  mkdir -p linux_practice1/tmp && cp -p linux_practice1/public linux_practice1/tmp
+  169* mkdir -p linux_practice1/tmp && cp -r linux_practice1/public linux_practi
+  170  ls
+  171  pwd
+  172  ls
+  173  git log
+  174  pwd
+  175  ls
+  176  rm linux_practice1
+  177  ls
+  178  ls -r linux_practice1
+  179  ls
+  180  rm -r linux_practice1
+  181  ls
+  182  cd public
+  183  ls
+  184  cd ..
+  185   ls
+  186  pwd
+  187  mkdir /linux_practice1/tmp
+  188  mkdir linux_practice1/tmp
+  189  ls
+  190  mkdir tmp && cp -r public /tmp
+  191  ls
+  192  ls tmp
+  193  cd /tmp
+  194  ls
+  195  ls
+  196  cd public
+  197  ls
+  198  rm index_bk.php
+  199  ls
+  200  cd ../../
+  201  ls
+  202  pwd
+  203  cd /root
+  204  ls
+  205  cd /server_lesson
+  206  cd server_lesson
+  207  ls
+  208  cd linux_practice1
+  209  ls
+  210  touch README.md
+  211  ls
+  212  vi README.md
+  213  git add
+  214  git status
+  215  git add *
+  216  git status
+  217  git commit -m 'problem1-4'
+  218  git log
+  219  vi README.md
+  220  vi README.md
+  221  echo $LANG>
+  222  echo $LANG > README.md
+  223  cat README.md
+  224  vi README.md
+  225  vi README.md
+  226  $ locale
+  227  vi README.md
+  228  vi README.md
+  229  pwd
+  230  git add *
+  231  git status
+  232  git commit -m 'problem1-5'
+  233  git log
+  234  cd ..
+  235  pwd
+  236  ls
+  237  mkdir linux_practice2
+  238  ls
+  239  cd linux_practice2
+  240  pwd
+  241  mkdir documents
+  242  cd documents
+  243  pwd
+  244  touch gizumo{01 ..50}.md
+  245  ls
+  246  cd gizumo{01
+  247   rm gizumo{01
+  248  ls
+  249  touch gizumo{01..50}.md
+  250  ls
+  251  cd ..
+  252  mkdir trash && mv /documents/gizumo{20..29}.md
+  253  mkdir trash && mv documents/gizumo{20..29}.md
+  254  ls
+  255  cd trash
+  256  ls
+  257  cd ..
+  258  ls
+  259  cd trash
+  260  mv documents/gizumo{20..40}.md gizumo{20..40}.md
+  261  ls
+  262  mv documents/gizumo{20..40}.md .
+  263  ls
+  264  cd ..
+  265  ls
+  266  cd documents
+  267  ls
+  268  mv documents/gizumo{2[0-9]|3[0-9]|40}.md .
+  269  mv documents/gizumo(2[0-9]|3[0-9]|40).md .
+  270  ls
+  271  pwd
+  272  mv documents/gizumo\(2[0-9]|3[0-9]|40).md .
+  273  mv documents/gizumo\(2[0-9]|3[0-9]|40\).md .
+  274  ls
+  275  mv documents/gizumo2{0-9}|3{0-9}|40.md .
+  276  pwd
+  277  mv gizumo2{0-9}|3{0-9}|40.md .
+  278  mv ./gizumo2{0-9}|3{0-9}|40.md .
+  279* mv ./gizumo2{0-9}|3{0-9}|40.md  linux_practice2/ trash
+  280  mv documents/gizumo{20..40}.md .
+  281  pwd
+  282  mv /root/server_lesson/linux_practice2/documents/gizumo{20..40}.md /root/server_lesson/linux_practice2/documents/ trash
+  283  ls
+  284  cd ..
+  285  ls
+  286  mv /root/server_lesson/linux_practice2/documents/gizumo{20..40}.md /root/server_lesson/linux_practice2/trash
+  287  ls
+  288  cd trash
+  289  ls
+  290  cd ..
+  291  mkdir .gitignore
+  292  ls
+  293  ls -a
+  294  git status
+  295  vi .gitignore
+  296  vi .gitignore
+  297  vi .gitignore
+  298  git status
+  299  ls
+  300  ls -a
+  301  vi .gitignore
+  302  vi .gitignore
+  303  cat .gitingore
+  304  cat .gitigore
+  305  cat .gitignore
+  306  ls
+  307  ls -a
+  308  cat .gitignore
+  309  vi .gitignore
+  310  ls .gitingore
+  311  cd .gitignore
+  312  pwd
+  313  ls
+  314  cd ..
+  315  ls
+  316  rm 
+  317  rm -ri .gitignore
+  318  ls -a
+  319  touch .gitignore
+  320  ls -a
+  321  vi .gitignore
+  322  cat .gitignore
+  323  history 300
+  324  pwd
+  325  touch exec_command.log
+  326  vi exec_command.log
+  327  cat exec_command.log
+  328  git status
+  329  git add *
+  330  git status
+  331  git reset HEAD
+  332  git status
+  333  vi .gitignore
+  334  git add *
+  335  git status
+  336  history 300
